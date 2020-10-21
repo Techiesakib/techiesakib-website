@@ -335,15 +335,14 @@
     }
     .descrip {
         font-size: 14px;
-        margin-top: 10px;
-        margin-left: 10px;
+        text-align: center;
     }
     .descrips {
         font-weight: bold;
-        margin-left: 10px;
+        text-align: center;
     }
     .sakib .works {
-        margin-left: 110px;
+        margin-left: 120px;
     }
     .me {
         margin-top: 50px;
@@ -354,7 +353,7 @@
         text-align: center;
     }
     .howdy .works {
-        margin-left: 75px;
+        margin-left: 85px;
     }
     .percentage {
         margin-left: 30px;
@@ -524,11 +523,6 @@
         margin-left: 8px;
     }
     /* service */
-    .serve:hover {
-        opacity: 1;
-        transition: .5s;
-        cursor: pointer;
-    }
     /* testimonial */
     .john {
         color: white;
@@ -576,331 +570,29 @@
         margin-left: 0px;
     }
     .info {
-        margin-left: 22px;
-    }
-    .enfo {
-        margin-left: 22px;
-    }
-    .form {
-        margin-top: 120px;
-    }
-    .forms-control {
-        width: 367px;
-    }
-    .sani {
-        padding-top: 25px;
-    }
-    .send {
-        margin-left: 90px;
-    }
-    /* footer */
-    .left {
-        margin-left: 50px;
-    }
-    .style {
-        margin-left: 75px;
-        margin-top: 20px;
-    }
-    .style a {
-        padding: 25px 60px;
-    }
-}
-
-@media only screen and (max-width:490px) {
-    /* For mobile phones: */
-    /* nav */
-    header {
-        width: 490px;
-    }
-    .navbar-nav {
-        margin-top: 0px;
-        margin-left: 120px;
-    }
-    .navbar {
-        width: 490px;
-        margin-left: -15px;
-    }
-    .navbar-toggler {
-        margin-top: -70px;
-        background: white;
-    }
-    .navbar-toggler-icon {
-        background-image: url(img/download.svg);
-    }
-    #banner {
-        padding-top: 50px;
-        overflow: hidden;
-    }
-    .sakib h5 {
-        font-size: 15px;
-        text-align: center;
-    }
-    .sakib h1 {
-        font-size: 25px;
-        text-align: center;
-    }
-    .descrip {
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .descrips {
-        font-weight: bold;
-        text-align: center;
-    }
-    .sakib .works {
-        margin-left: 110px;
-    }
-    .me {
-        margin-top: 50px;
-        margin-left: -110px;
-    }
-    /* about */
-    .how {
-        text-align: center;
-    }
-    .howdy .works {
-        margin-left: 75px;
-    }
-    .percentage {
         margin-left: 30px;
     }
-    .design {
-        position: relative;
-        margin-bottom: 20px;
-        width: 300px;
-        height: 10px;
-        background: #575454;
-        border-radius: 5px;
-    }
-    .designs {
-        position: absolute;
-        width: 250px;
-        height: 10px;
-        background: white;
-        top: 74px;
-        border-radius: 5px;
-    }
-    .htmls {
-        position: absolute;
-        width: 230px;
-        height: 10px;
-        background: white;
-        top: 128px;
-        border-radius: 5px;
-    }
-    .java {
-        position: absolute;
-        width: 150px;
-        height: 10px;
-        background: white;
-        top: 182px;
-        border-radius: 5px;
-    }
-    .wordpress {
-        position: absolute;
-        width: 210px;
-        height: 10px;
-        background: white;
-        top: 236px;
-        border-radius: 5px;
-    }
-    .percentage h6 {
-        color: white;
-    }
-    .nine {
-        margin-left: 160px;
-    }
-    .eight {
-        margin-left: 105px;
-    }
-    .five {
-        margin-left: 29px;
-    }
-    .seven {
-        margin-left: 85px;
-    }
-    /* experience */
-    .dash {
-        border: none;
-    }
-    .correct {
-        display: none;
-    }
-    .corrects {
-        display: none;
-    }
-    .behance {
-        margin-left: 140px;
-    }
-    .graphic {
-        text-align: center;
-        padding-right: 20px;
-        margin-top: -215px;
-    }
-    .print {
-        text-align: center;
-        padding-right: 20px;
-        margin-top: -215px;
-    }
-    .behanse {
-        margin-left: 140px;
-    }
-    .behanse .behan {
-        margin-left: -20px;
-    }
-    .web {
-        text-align: center;
-        padding-right: 20px;
-        margin-top: 5px;
-    }
-    .developer {
-        text-align: center;
-        padding-right: 20px;
-        margin-top: 5px;
-    }
-    /* portfolio */
-    .unorder li a {
-        display: none;
-    }
-    .garden {
-        width: 355px;
-        height: 480px;
-        margin-bottom: 20px;
-        margin-left: 4px;
-        position: relative;
-        overflow: hidden;
-    }
-    .book {
-        width: 355px;
-        height: 230px;
-        margin-bottom: 20px;
-        margin-left: 4px;
-        position: relative;
-        overflow: hidden;
-    }
-    .ward {
-        width: 355px;
-        height: 227px;
-        margin-bottom: 15px;
-        margin-left: 4px;
-        position: relative;
-        overflow: hidden;
-    }
-    .gardens {
-        width: 355px;
-        height: 230px;
-        margin-bottom: 20px;
-        position: relative;
-        overflow: hidden;
-        margin-left: 4px;
-    }
-    .poster {
-        width: 355px;
-        height: 230px;
-        margin-bottom: 20px;
-        position: relative;
-        overflow: hidden;
-        margin-left: 4px;
-    }
-    .hyper {
-        width: 355px;
-        height: 480px;
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        margin-left: 4px;
-    }
-    .flyer {
-        width: 355px;
-        height: 480px;
-        margin-bottom: 20px;
-        margin-left: 5px;
-        position: relative;
-        overflow: hidden;
-        margin-left: 4px;
-    }
-    .grapics {
-        width: 355px;
-        height: 480px;
-        margin-bottom: 20px;
-        margin-left: 5px;
-        position: relative;
-        overflow: hidden;
-        margin-left: 4px;
-    }
-    /* service */
-    .serve:hover {
-        opacity: 1;
-        transition: .5s;
-        cursor: pointer;
-    }
-    /* testimonial */
-    .john {
-        color: white;
-        background: #000;
-        text-align: center;
-        padding-top: 70px;
-        padding-bottom: 20px;
-        width: 330px;
-        margin-left: 15px;
-        position: relative;
-        margin-top: 80px;
-        border-radius: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .men {
-        position: absolute;
-        right: 115px;
-        top: -50px;
-    }
-    /* blogsection */
-    .linc {
-        margin-left: 1px;
-    }
-    .link {
-        margin-left: 1px;
-    }
-    .links {
-        margin-left: 1px;
-    }
-    .blogpic {
-        width: 360px;
-    }
-    /* getin */
-    .khala {
-        margin-left: 35px;
-    }
-    .house {
-        margin-left: 35px;
-    }
-    .email {
-        margin-left: 35px;
-    }
-    .touch {
-        margin-left: 0px;
-    }
-    .info {
-        margin: auto;
+    .enfo {
+        margin-left: 40px;
     }
     .form {
         margin-top: 120px;
     }
     .forms-control {
-        width: 358px;
+        width: 369px;
     }
     .sani {
         padding-top: 25px;
     }
     .send {
-        margin-left: 80px;
+        margin-left: 95px;
     }
     /* footer */
     .left {
-        margin-left: 50px;
+        margin-left: 80px;
     }
     .style {
-        margin-left: 75px;
+        margin-left: 100px;
         margin-top: 20px;
     }
     .style a {
