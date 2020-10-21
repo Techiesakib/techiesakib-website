@@ -1,0 +1,76 @@
+#header {
+    padding-top: 20px;
+    background: #202020;
+}
+
+.brandname {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(font/Oswald/static/Oswald-Medium.ttf);
+}
+
+.nav-link {
+    font-family: 'oswald';
+    font-size: 20px;
+    color: white;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: .5;
+    transition: .5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+
+/* imgsection */
+
+.photo {
+    margin-top: 50px;
+    width: 950px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+
+/* blogsection */
+
+.blog {
+    margin-left: 100px;
+    color: black;
+    opacity: .5;
+    width: 950px;
+    padding-bottom: 50px;
+}
+
+.type {
+    margin-top: 50px;
+    margin-left: 100px;
+    color: black;
+    opacity: .9;
+}
+
+.types {
+    margin-left: 100px;
+    color: black;
+    opacity: .9;
+}
+
+.cat {
+    margin-left: 100px;
+    opacity: .9;
+}
+
+.life {
+    color: black;
+}
